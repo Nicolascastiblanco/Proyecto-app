@@ -1,3 +1,8 @@
+package Vista;
+
+
+import Vista.InterfazUsuario;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -123,7 +128,7 @@ public class contraseña extends javax.swing.JFrame {
     private void BottRegrecontraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BottRegrecontraActionPerformed
         // TODO add your handling code here:
         
-        IngresoUsuario Regreso = new IngresoUsuario();
+        InterfazUsuario Regreso = new InterfazUsuario();
         
         Regreso.setVisible(true);
         this.dispose();
